@@ -44,12 +44,10 @@ export default function App() {
       />
 
       {totalVotes >= 1 ? (
-         <VoteStats 
-          good={votes.good} 
-          neutral={votes.neutral} 
-          bad={votes.bad} 
-          totalVotes={totalVotes} 
-          positivePercentage={positiveRate} 
+         <VoteStats
+          votes={votes}
+          totalVotes={totalVotes}
+          positiveRate={positiveRate}
         />
       ) : (
         <Notification />
