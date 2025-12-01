@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom/client";
-import App from "./components/App/App";
+import App from "./components/App/App.tsx";
 import "modern-normalize/modern-normalize.css";
 import "./index.css";
 
